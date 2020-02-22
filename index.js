@@ -14,9 +14,18 @@ bot.on('message', async message => {
     let cmd = messageArray[0];
     let args = messageArray.slice(1);
     
+    const teksty = [
+    'ale jak widac, zjeby genetyczne dalej istnieja na tym serwerze ;d',
+    'juz byl kiedy taki jeden przyjeb co napisal na mnie skarge',
+    'to skad wiesz jak mam na imie i ze mam siostre?',
+    'ale widze duzo o mnie wiesz, mialem racje, ukryty psychofan albo stalker ;d',
+    'bede grał tak jak mi sie podoba, chce grac czarnucha  co wyznaje kulture hiphopową z lat 90? to bede grał. CHce grać graficiarza? Będę grał. Nawet kurwa se bede grał czarnucha co popierdala z kataną na plecach i tez chuj ci do tego'
+    ]
+    
     if(cmd === `${prefix}oldschool`) {
-        return message.channel.send('yo,powiem tak, moja postac jest uczulona na punkcie graffiti i jak widze malowane graffiti tam gdzie malowała moja postac to moja postać wiadomo że sie wkurwi i na pewno nie podejdzie i nie powie "o dziekuje ze z crossowaliscie mi graffiti", z tym sniczem było na zlecenie naszego bossa aby kazdy wiedzial kto sie rozjebał, a wy to z crossowaliście - co jeszcze bardziej podbudziło moją postać, dlatego ja wam z crossowałem. Teraz widze moje wrzuty z crossowane, a jedna usunieta, nie wiem nie wnikam pewnie zlecenie admina, wiec na pewno moja postać tego nie odpuści i znów będzie graffiti beef. Moja postać mieszka na idlewood i jest powiązana z kliką tej dzielnicy i denerwuje ją to że ktoś maluje po jego terenie, więc proste że pójdzie cross.A z tym co crossowaliscie to slyszalem ze sami kazaliscie wypierdalac im z "waszego terenu" i smialiscie im sie prosto w morde crossujac tagi od nas.');
+        return message.channel.send(teksty[Math.floor(Math.random() * teksty.length)]);
     }
+    
     
 })
 
