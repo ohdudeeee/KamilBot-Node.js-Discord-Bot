@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('ready', () =>{
-    bot.user.setActivity('oldschool', {type: 'PLAYING'})
+    bot.user.setActivity('!kamil', {type: 'PLAYING'})
 })
 
 bot.on('message', async message => {
@@ -27,7 +27,15 @@ bot.on('message', async message => {
     }
     
     if(cmd === `${prefix}kamil`) {
-        return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool');
+        return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool (losowy tekst), ');
+    }
+    
+    if(cmd === `kamil`) {
+        return message.channel.send('co');
+    }
+    
+    if(cmd === `gowno`) {
+        return message.channel.send(':frowning:');
     }
     
 })
