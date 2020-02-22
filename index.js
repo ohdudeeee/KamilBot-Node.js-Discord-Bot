@@ -26,6 +26,9 @@ bot.on('message', async message => {
         return message.channel.send(teksty[Math.floor(Math.random() * teksty.length)]);
     }
     
+    if(cmd === `${prefix}kamil`) {
+        return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool');
+    }
     
 })
 
