@@ -19,7 +19,14 @@ bot.on('message', async message => {
     'juz byl kiedy taki jeden przyjeb co napisal na mnie skarge',
     'to skad wiesz jak mam na imie i ze mam siostre?',
     'ale widze duzo o mnie wiesz, mialem racje, ukryty psychofan albo stalker ;d',
-    'bede grał tak jak mi sie podoba, chce grac czarnucha  co wyznaje kulture hiphopową z lat 90? to bede grał. CHce grać graficiarza? Będę grał. Nawet kurwa se bede grał czarnucha co popierdala z kataną na plecach i tez chuj ci do tego'
+    'bede grał tak jak mi sie podoba, chce grac czarnucha  co wyznaje kulture hiphopową z lat 90? to bede grał. CHce grać graficiarza? Będę grał. Nawet kurwa se bede grał czarnucha co popierdala z kataną na plecach i tez chuj ci do tego',
+    'ja sie go zapytalem jak bylo i tyle, a ty z wyzwiskami jak jakis piegusowaty gilozjadacz co siedzi przed kompem i struga gangstera w internetach ;d',
+    'czyli nie kozaczyliscie do niego na stacji idlewood?',
+    'akurat mialem spora przerwe w grze, dopiero nie dawno wrocilem :wink:',
+    'a co ty mi kurwa fejsa przegladasz? ;d',
+    'jak ci sie nie podoba moja gr ato juz mowilem, pisz skarge',
+    'to ty sie ciśniesz w internetach jak rudy piegus co gile przed kompem zjada ;d',
+    'zara ci rurka pęknie ;d'
     ]
     
     const wrzuty = [
