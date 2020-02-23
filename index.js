@@ -56,6 +56,11 @@ bot.on('message', async message => {
     'https://i.imgur.com/5d0k7Zk.png'
     ]
     
+    const ballas = [
+    'https://i.imgur.com/zuBlJIR.jpg',
+    'https://i.imgur.com/yaZUCmN.png'
+    ]
+    
     if(cmd === `${prefix}oldschool`) {
         return message.channel.send(teksty[Math.floor(Math.random() * teksty.length)]);
     }
@@ -65,7 +70,7 @@ bot.on('message', async message => {
     }
     
     if(cmd === `${prefix}kamil`) {
-        return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool (losowy tekst), !bomb (losowa oldschoolowa Boomba). https://github.com/ohdudeeee/kamil-bot');
+        return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool (losowy tekst), !bomb (losowa oldschoolowa Boomba) !ballas !sen. https://github.com/ohdudeeee/kamil-bot');
     }
     
     if(cmd === `kamil`) {
@@ -74,6 +79,14 @@ bot.on('message', async message => {
     
     if(cmd === `gowno`) {
         return message.channel.send(':frowning:');
+    }
+    
+    if(cmd === `${prefix}ballas`) {
+        return message.channel.send(`Yo, to moje bractwo`, {file: ballas[Math.floor(Math.random() * ballas.length)]});
+    }
+    
+    if(cmd === `sen`) {
+        return message.channel.send('kto nie spi');
     }
     
 })
