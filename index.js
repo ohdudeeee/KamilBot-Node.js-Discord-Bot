@@ -44,7 +44,13 @@ bot.on('message', async message => {
     'Hahha Jordan pizda lizal dupe ikalowi żeby być w drk został wyruchany i teraz płacze. Opowiedz jak to jest żyć w bidulu biedaku',
     'A, to ty. To czekaj, dla mnie jesteś pionkiem, bo zadarłeś z Wolfa potomkiem : )) Obserwuj status, bo jebany społeczniaku jakbyś to nazwał "ODPOWIE MI OSIEDLOWY PATUS". :slight_smile:',
     'Ej jestem tak oldschoolowy, że piszę rymy ołówkiem I tak osiemnastki zapraszają na domówke Mam trójke z przodu z tyłu czwórka to stylu wulkan Wersy jak lawa ciągle płyną przez podwórka',
-    'Góry pokonałem, syberie przeszedłem - wróciłem z cepa, piwko se jebłem.'
+    'Góry pokonałem, syberie przeszedłem - wróciłem z cepa, piwko se jebłem.',
+    'Nie ważna pora, dla mnie kaaażda jest doobra, TAKI OLDSKUL że twoja babcia jest mookra!',
+    'Kiedyś elo, ema i serdeczny handshake, dziś jak to wspominam, czuję muszę umyć ręce, pluje ci na gębę i nie żałuję śliny',
+    'Szukam chętnych graficiarzy do projektu na wspólne wypady bombardowania ścian!! http://devgaming.pl/topic/69778-a1astreet-vandals-crew-svc/#entry702215',
+    'Kręć kręć, turlaj turlaj - cała sala dziś nakurwia!',
+    'Ściągaj gacie! Teraz? Teraz! Nie ma co pierdolić lecimy w dobry melanż!',
+    'A więc poczuj kocie ruchy dziwko poczuj kocie ruchy, dotknij gdzie chcesz razy dwa chce twej zguby, ważne, że jest grzeczna wtedy opcja jest bajeczna, materialna dziwka to zabawa niebezpieczna'
     ]
     
     const wrzuty = [
