@@ -61,8 +61,7 @@ bot.on('message', async message => {
     }
     
     if(cmd === `${prefix}kamil`) {
-        return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool (losowy tekst), !bomb (losowa oldschoolowa Boomba)');
-        message.channel.send('https://github.com/ohdudeeee/kamil-bot');
+        return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool (losowy tekst), !bomb (losowa oldschoolowa Boomba). https://github.com/ohdudeeee/kamil-bot');
     }
     
     if(cmd === `kamil`) {
