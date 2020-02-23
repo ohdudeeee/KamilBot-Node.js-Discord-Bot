@@ -41,6 +41,10 @@ bot.on('message', async message => {
     'YO SNICZE ROBOTA DLA WAS HAHAHAHHAHAHAHAHAHAHA',
     'na devgaming se namaluj słyszałem wiele razy',
     'oldschool not die',
+    'Hahha Jordan pizda lizal dupe ikalowi żeby być w drk został wyruchany i teraz płacze. Opowiedz jak to jest żyć w bidulu biedaku',
+    'A, to ty. To czekaj, dla mnie jesteś pionkiem, bo zadarłeś z Wolfa potomkiem : )) Obserwuj status, bo jebany społeczniaku jakbyś to nazwał "ODPOWIE MI OSIEDLOWY PATUS". :slight_smile:',
+    'Ej jestem tak oldschoolowy, że piszę rymy ołówkiem I tak osiemnastki zapraszają na domówke Mam trójke z przodu z tyłu czwórka to stylu wulkan Wersy jak lawa ciągle płyną przez podwórka',
+    'Góry pokonałem, syberie przeszedłem - wróciłem z cepa, piwko se jebłem.'
     ]
     
     const wrzuty = [
