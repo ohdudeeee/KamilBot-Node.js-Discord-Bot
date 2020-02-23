@@ -26,7 +26,21 @@ bot.on('message', async message => {
     'a co ty mi kurwa fejsa przegladasz? ;d',
     'jak ci sie nie podoba moja gr ato juz mowilem, pisz skarge',
     'to ty sie ciśniesz w internetach jak rudy piegus co gile przed kompem zjada ;d',
-    'zara ci rurka pęknie ;d'
+    'zara ci rurka pęknie ;d',
+    'Mamy sporo puch, dawajcie - ryzykujemy bedzie konkret',
+    'Dlaczego mój temat z nutką został usunięty?',
+    'Panie opiekunie, wiec jaki jest powód usunięcia 900 Jefferson? Panowie klimacili nieźle, hood-gaming się kleił ostro, lecz Ty dając im nadzieje, od tak odrzuciłeś nie podając powodu, marnując im zajawke - więc, jaki jest owy powód? Bo jak "nie przypadło mi do gustu ~ Marcino" to będę miał dożywotnią bekę... :neutral_face:',
+    'dlaczego 900 Jefferson zostało odrzucone panie opiekunie? Przecie mieli zajawke i ogarniali zajebiście gierkie i klimacior :neutral_face:',
+    'Oto chodzi że ta organizacja miała poziom... -.-',
+    'dziadek Szadoł umrze z lolkiem, bo smażył jak był małym chłopcem : D',
+    'bidibidi bom boom bidibidi na mieście znowu w chuj bomb i ziom nie mam alibi',
+    'ulica styl styl ulica!',
+    'Dobra godzina na bombing :))',
+    'na dev da sie nauczyc karate???',
+    'fuck the police zawsze i wszędzie!',
+    'YO SNICZE ROBOTA DLA WAS HAHAHAHHAHAHAHAHAHAHA',
+    'na devgaming se namaluj słyszałem wiele razy',
+    'oldschool not die',
     ]
     
     const wrzuty = [
@@ -48,7 +62,7 @@ bot.on('message', async message => {
     
     if(cmd === `${prefix}kamil`) {
         return message.channel.send('yo, jestem zajebiscie zaprogramowanym botem, spis komend: !oldschool (losowy tekst), !bomb (losowa oldschoolowa Boomba)');
-        return message.channel.send('https://github.com/ohdudeeee/kamil-bot');
+        message.channel.send('https://github.com/ohdudeeee/kamil-bot');
     }
     
     if(cmd === `kamil`) {
