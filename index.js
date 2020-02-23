@@ -85,7 +85,7 @@ bot.on('message', async message => {
         return message.channel.send(`Yo, to moje bractwo`, {file: ballas[Math.floor(Math.random() * ballas.length)]});
     }
     
-    if(cmd === `sen`) {
+    if(cmd === `${prefix}sen`) {
         return message.channel.send('kto nie spi');
     }
     
