@@ -96,7 +96,7 @@ bot.on('message', async message => {
     }
     
     if(cmd === `${prefix}sen`) {
-        return message.channel.send('kto nie spi');
+        return message.channel.send('kto nie spi?');
     }
     
 })
