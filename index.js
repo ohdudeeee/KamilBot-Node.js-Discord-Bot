@@ -50,7 +50,16 @@ bot.on('message', async message => {
     'Szukam chętnych graficiarzy do projektu na wspólne wypady bombardowania ścian!! http://devgaming.pl/topic/69778-a1astreet-vandals-crew-svc/#entry702215',
     'Kręć kręć, turlaj turlaj - cała sala dziś nakurwia!',
     'Ściągaj gacie! Teraz? Teraz! Nie ma co pierdolić lecimy w dobry melanż!',
-    'A więc poczuj kocie ruchy dziwko poczuj kocie ruchy, dotknij gdzie chcesz razy dwa chce twej zguby, ważne, że jest grzeczna wtedy opcja jest bajeczna, materialna dziwka to zabawa niebezpieczna'
+    'A więc poczuj kocie ruchy dziwko poczuj kocie ruchy, dotknij gdzie chcesz razy dwa chce twej zguby, ważne, że jest grzeczna wtedy opcja jest bajeczna, materialna dziwka to zabawa niebezpieczna',
+    'Pytanie do graczy; czy na serwerze tutaj, jest jeszcze jakaś osoba która wyleciała z banem za odspawnowanie pojazdu podczas akcji?',
+    'Osoba która zmazała graffiti na Unity Station, niech się zgłodzi na PW po FCC, inaczej dopadnę Cię razem z Twoją bandą gangsta centrumowiczków skuterowiczów las clicka centrumownika iks pięcdziesiat i grupowe FCK, olewając wszystkie skargi, bez gustowne centrumy.',
+    'Noob z centrum który skasował graffiti na blokach Anzac dot. CRIPS - niech się zgosi po FCK na PW.',
+    'Odrzucić projekt IC z mojego powodu, chociaż w naszym projekcie nikt nie jest liderem, brawo Human XDD',
+    'Jestem ciekaw od kiedy Samzon masz takie pogłoski, że Old i Modern to rzeczy z N$G. Zawsze był podział na takie kategorie i nikomu nie przeszkadzało. Jedynie grupka osób z tego serwera ma do tego sprzeciw, uważając się za starych wyjadaczy. Jestem w 100% pewien, że sam używałeś takich terminów na aplikacjach org. Także prosiłbym, żebyś nie siał fermentu.',
+    'Cineq - Crips & Bloods - Bangin of Wax, to stary oldschoolowy album który jest na wiecznym propsie.',
+    'Nie wiem czy ten Asap to wgl. jakaś gangstera, ale podjeżdża pod pseudola. To było dobre porównanie. :wink:',
+    'Morda iksboks zdrajco. Jebac swag.',
+    'Jednego pseudo swagera mniej.'
     ]
     
     const wrzuty = [
