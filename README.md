@@ -1,1 +1,1 @@
-# discord.js bot
+# inactive, simple discord.js bot
